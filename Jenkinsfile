@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        registry = "magalixcorp/k8scicd"
+        registry = "zenrabbit/k8scicd"
         GOCACHE = "/tmp"
     }
     stages {
